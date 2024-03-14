@@ -42,6 +42,3 @@ ax[0].set_xlim(0, len(y) / sr)
 librosa.display.waveshow(y, sr=sr, ax=ax[0])
 ax[0].set(title='Envelope view, mono')
 ax[0].label_outer()
-
-
-
